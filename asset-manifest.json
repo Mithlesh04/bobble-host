@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/bobble-host/static/css/main.7e30ec22.chunk.css",
-    "main.js": "/bobble-host/static/js/main.d1a7aec4.chunk.js",
-    "main.js.map": "/bobble-host/static/js/main.d1a7aec4.chunk.js.map",
+    "main.js": "/bobble-host/static/js/main.ab86a066.chunk.js",
+    "main.js.map": "/bobble-host/static/js/main.ab86a066.chunk.js.map",
     "runtime-main.js": "/bobble-host/static/js/runtime-main.09d0863d.js",
     "runtime-main.js.map": "/bobble-host/static/js/runtime-main.09d0863d.js.map",
     "static/css/2.134ebcca.chunk.css": "/bobble-host/static/css/2.134ebcca.chunk.css",
@@ -32,6 +32,6 @@
     "static/css/2.134ebcca.chunk.css",
     "static/js/2.a2e766fa.chunk.js",
     "static/css/main.7e30ec22.chunk.css",
-    "static/js/main.d1a7aec4.chunk.js"
+    "static/js/main.ab86a066.chunk.js"
   ]
 }
