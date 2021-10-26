@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/bobble-host/static/css/main.7e30ec22.chunk.css",
+    "main.js": "/bobble-host/static/js/main.d71262d8.chunk.js",
+    "main.js.map": "/bobble-host/static/js/main.d71262d8.chunk.js.map",
+    "runtime-main.js": "/bobble-host/static/js/runtime-main.09d0863d.js",
+    "runtime-main.js.map": "/bobble-host/static/js/runtime-main.09d0863d.js.map",
+    "static/css/2.134ebcca.chunk.css": "/bobble-host/static/css/2.134ebcca.chunk.css",
+    "static/js/2.a2e766fa.chunk.js": "/bobble-host/static/js/2.a2e766fa.chunk.js",
+    "static/js/2.a2e766fa.chunk.js.map": "/bobble-host/static/js/2.a2e766fa.chunk.js.map",
+    "index.html": "/bobble-host/index.html",
+    "static/css/2.134ebcca.chunk.css.map": "/bobble-host/static/css/2.134ebcca.chunk.css.map",
+    "static/css/main.7e30ec22.chunk.css.map": "/bobble-host/static/css/main.7e30ec22.chunk.css.map",
+    "static/js/2.a2e766fa.chunk.js.LICENSE.txt": "/bobble-host/static/js/2.a2e766fa.chunk.js.LICENSE.txt",
+    "static/media/B1.f0eb6811.png": "/bobble-host/static/media/B1.f0eb6811.png",
+    "static/media/Bobble-Blue.69428770.png": "/bobble-host/static/media/Bobble-Blue.69428770.png",
+    "static/media/Bobble-Green.22b16f02.png": "/bobble-host/static/media/Bobble-Green.22b16f02.png",
+    "static/media/Bobble-Orange.12cfbff8.png": "/bobble-host/static/media/Bobble-Orange.12cfbff8.png",
+    "static/media/Bobble-Purple.d88c7648.png": "/bobble-host/static/media/Bobble-Purple.d88c7648.png",
+    "static/media/G8.506eb80d.png": "/bobble-host/static/media/G8.506eb80d.png",
+    "static/media/O7.f8e08c85.png": "/bobble-host/static/media/O7.f8e08c85.png",
+    "static/media/P10.497f7313.png": "/bobble-host/static/media/P10.497f7313.png",
+    "static/media/PlayersButtonIcon.2f21b555.svg": "/bobble-host/static/media/PlayersButtonIcon.2f21b555.svg",
+    "static/media/game.c02ff43c.svg": "/bobble-host/static/media/game.c02ff43c.svg",
+    "static/media/index.css": "/bobble-host/static/media/nunito-vietnamese-400-normal.8afa535b.woff2",
+    "static/media/score.8feff84f.svg": "/bobble-host/static/media/score.8feff84f.svg",
+    "static/media/settings.27484e06.svg": "/bobble-host/static/media/settings.27484e06.svg",
+    "static/media/teams.6dbdae01.svg": "/bobble-host/static/media/teams.6dbdae01.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.09d0863d.js",
+    "static/css/2.134ebcca.chunk.css",
+    "static/js/2.a2e766fa.chunk.js",
+    "static/css/main.7e30ec22.chunk.css",
+    "static/js/main.d71262d8.chunk.js"
+  ]
+}
