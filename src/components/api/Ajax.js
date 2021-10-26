@@ -17,7 +17,7 @@ async function Fetch(config){
         }
 
         if('string'===typeof config){
-            config = {async:true,type:'GET',headers : headers ,url:config}
+            config = {async:true,type:'GET',headers : headers ,url:'http://13.232.184.252:5000/api/v1/'+config}
         }else{
             var { url , ...rest } = config
             url = 'http://13.232.184.252:5000/api/v1/'+url
