@@ -43,12 +43,16 @@ async function Fetch(config){
 async function GetToken(){
     let key = 'token'
     if(!window.localStorage.hasOwnProperty(key)){
+        const token = await Fetch('generatetoken')
+        window.localStorage.setItem(key,token.token)
+        return token.token
+    }else{
+        let token = window.localStorage.getItem(key)
+        if(token==='undefined'){
             const token = await Fetch('generatetoken')
             window.localStorage.setItem(key,token.token)
             return token.token
-    }else{
-        let token = window.localStorage.getItem(key)
-        if(token){
+        }else if(token){
             return token
         }
     }
