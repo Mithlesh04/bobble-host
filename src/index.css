@@ -1,0 +1,44 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+@font-face {
+  font-family: "Nunito";
+  src: url(https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600&display=swap)
+}
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Nunito';
+}
+
+.body-container{
+  position: absolute;
+  height: 85%;
+  width : 85%;
+  margin-left:80px;
+  color : #000;
+  border:1px solid #D1D1D1;
+  border-radius : 15px;
+  margin-top:20px;
+  font-family : 'Nunito';
+  font-weight : 400;
+  padding : 10px 20px 20px 30px;
+  font-size : 16px;
+}
+.heading-game-type{
+    font-size : 32px;
+    padding-bottom : 2px;
+    border-bottom : 2px solid #D1D1D1;
+}
+.sub-heading{
+    margin-top: 30px;
+    font-size: 23px;
+}
+.site-map{
+    margin-top : 20px;
+    font-size: 16px;
+}

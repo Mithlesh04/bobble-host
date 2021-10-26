@@ -1,0 +1,151 @@
+
+.bidding-game{
+    .team-column{
+        margin-top : 30px;
+        margin-right : 40px;
+        .team-name{
+            button{
+                width : 160px;
+                height : 35px;
+                background : white;
+                text-align:center;
+                font-size : 16px;
+                border:unset;
+                border-radius : 10px;
+            }
+        }
+        .players-list{
+            margin-top : 20px;
+            button {
+                cursor : pointer;
+                margin-top:10px;
+                width : 160px;
+                height : 19px;
+                padding-top : 10px;
+                padding-bottom : 20px;
+                display : block;
+                border-radius : 10px;
+                font-size : 14px;
+                border : 1px solid #D1D1D1;
+                box-shadow : 0.21px 1.50px 3px transparent;
+                svg{
+                    position :absolute;
+                    margin-left : -40px;
+                    margin-top : -5px;
+                }
+                &:hover{
+                    border : 1px solid #000;
+                    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+                }
+            }
+            .selected-team-captain{
+                border : 1px solid #000;
+                box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            }
+            
+        }
+
+    }
+    .start-bidding-button{
+        position:absolute;
+        bottom:0;
+        display: grid;
+        grid-template-columns: auto auto auto;
+        width: 100%;
+        margin-bottom : 30px;
+        button{
+            cursor : pointer;
+            width : 230px;
+            height : 50px;
+            color : #fff;
+            border : 1px solid #5560AF;
+            text-transform: unset;
+            background : #5560AF;
+            border-radius : 10px;
+            margin-top : 150px;
+            margin-bottom : 20px;
+            font-size : 22px;
+            font-weight : 400
+        }
+    }
+
+    .bidding-response{
+        margin-top : 30px;
+        table{
+            text-align:center;
+            border : 0;
+            border-collapse: collapse;
+            thead{
+                th{
+                    background : #C5C8FF;
+                    min-width:150px; 
+                    padding : 10px;
+                    font-size : 18px;
+                    color : #000;
+                }
+            }
+            tbody{
+                tr{
+                    td {
+                        padding  :10px;
+                    }
+                    td.highlight{
+                        background : rgba(232, 115, 111, 0.5)
+                    }
+                    td:first-child{
+                        line-height: 20px;
+                        font-size: 14px;
+                    }
+                }
+                tr:nth-child(odd) td:first-child{
+                    background : rgba(197, 200, 255, 0.4)
+                }
+                tr:nth-child(even) td:first-child{
+                    background : rgba(197, 200, 255, 0.3)
+                }
+                
+                tr:hover{
+                    td{
+                        background : #E9EFFB
+                    }
+                    td.highlight{
+                        background : rgba(232, 115, 111, 0.5)
+                    }
+                    td:first-child{
+                        font-weight:700
+                    }
+                }
+            }
+        }
+        .bidding-handle-buttons{
+            position:absolute;
+            bottom:0;
+            display: grid;
+            grid-template-columns: auto auto auto;
+            width: 100%;
+            margin-bottom : 30px;
+            button{
+                cursor : pointer;
+                padding : 10px 30px 10px 30px;
+                border-radius : 10px;
+                border:unset;
+                font-size : 22px;
+                color : white;
+            }
+            div:first-child{
+                button:enabled{
+                    background : #45C779;
+                }
+                button:disabled{
+                    background : #C1C1C1;
+                }
+            }
+            div:last-child{
+                text-align:right;
+                button{
+                    background : #E7544E;
+                }
+            }
+        }
+    }
+}

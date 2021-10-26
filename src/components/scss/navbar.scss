@@ -1,0 +1,92 @@
+.TopNavBar{
+    position: relative;
+    overflow: hidden;
+    background-color: #fff;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+    color: #000;
+    border-bottom: 1px solid #e8e8e8;
+    display: flex;
+    align-items: center;
+    padding: 15px 30px;
+    z-index: 1001;
+    .logo{
+        align-items: center;
+        justify-content: center;
+        text-emphasis: center;
+        .game-exp{
+            font-size: 1.5em;
+            margin-right: 10px;
+            font-weight: bold;
+            color: #5560AF;
+            text-transform: capitalize;
+        }
+        .dashboard{
+            font-weight: 100;
+        }
+    }
+
+    .pin{
+        justify-content: center;
+        position: relative;
+        align-items: center;
+        margin-left: auto; 
+        margin-right: 100px;
+        .pin-label{
+            font-weight: 700;
+            color: #6a75ca;
+            margin-right: 5px;
+            text-transform: capitalize;
+        }
+        .pin-value{
+            font-size: 1.5em;
+            font-weight: 100;
+            cursor: pointer;
+            display: inline-block;
+            position:relative;
+        }
+    }
+    
+    
+    
+}
+
+
+.LeftNavBar{
+    position: relative;
+    overflow: hidden;
+    background-color: #6A75CA;
+    position: fixed; /* Set the navbar to fixed position */
+    left: 0; /* Position the navbar at the top of the page */
+    height: 100%; /* Full width */
+    color: #000;
+    border-right: 1px solid #e8e8e8;
+    align-items: start;
+    padding: 100px 10px;
+    color: #fff;
+    z-index: 1000;
+
+    .menu-icon{
+        margin-top: 8px;
+        cursor: pointer;
+        &:hover{
+            background-color: #5560AF;
+            border-radius: 50px;
+        }
+    }
+    .menu-icon-active{
+        background-color: #5560AF;
+        border-radius: 50px;
+    }
+}
+
+main.main-body{
+    position: absolute;
+    padding: 30px 30px;
+    overflow-y: auto;
+    left: 60px;
+    top: 60px;
+    right: 0;
+    bottom: 0;
+}

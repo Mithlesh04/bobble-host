@@ -1,0 +1,45 @@
+.tooltip{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.tooltip:hover .tooltip-block{
+    visibility: visible;
+    opacity: 1;
+    top: 30px;
+    left: 55px;
+}
+.tooltip-block{
+    border: 2px solid #D1D1D1;
+    border-radius: 8px;
+    width: 99px;
+    height: 60px;
+    display: flex;
+    padding: 15px;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+    z-index: 1;
+    visibility: hidden;
+    opacity: 0;
+    background-color: white;
+    cursor: pointer;
+   transition: opacity 0.5s ease-in-out;
+}
+.tooltip-edit,.tooltip-delete{
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+}
+.tooltip-icon{
+    margin-right: 5px;
+}
+.setting-icon{
+    font-size: 2rem;
+   
+}
+.colored-row{
+    background-color:var(--lightest-blue);
+}
